@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BAB6393243C1E0400A12ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB6392243C1E0400A12ACA /* AppDelegate.swift */; };
+		2BAB6395243C1E0400A12ACA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB6394243C1E0400A12ACA /* SceneDelegate.swift */; };
+		2BAB6397243C1E0400A12ACA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB6396243C1E0400A12ACA /* LoginViewController.swift */; };
+		2BAB639A243C1E0400A12ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAB6398243C1E0400A12ACA /* Main.storyboard */; };
+		2BAB639D243C1E0400A12ACA /* HackerKernelTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB639B243C1E0400A12ACA /* HackerKernelTask.xcdatamodeld */; };
+		2BAB639F243C1E0600A12ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAB639E243C1E0600A12ACA /* Assets.xcassets */; };
+		2BAB63A2243C1E0600A12ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAB63A0243C1E0600A12ACA /* LaunchScreen.storyboard */; };
+		2BAB63AD243C1E0600A12ACA /* HackerKernelTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB63AC243C1E0600A12ACA /* HackerKernelTaskTests.swift */; };
+		2BAB63B8243C1E0600A12ACA /* HackerKernelTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB63B7243C1E0600A12ACA /* HackerKernelTaskUITests.swift */; };
+		2BAB63C7243C58E700A12ACA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB63C6243C58E700A12ACA /* MainTabBarController.swift */; };
+		2BAB63C9243C7EC600A12ACA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB63C8243C7EC600A12ACA /* HomeViewController.swift */; };
+		2BAB63CB243C7ED500A12ACA /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB63CA243C7ED500A12ACA /* PhotosViewController.swift */; };
+		2BAB63CD243C7EE600A12ACA /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB63CC243C7EE600A12ACA /* PostsViewController.swift */; };
+		2BAB63D0243C92FB00A12ACA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB63CF243C92FB00A12ACA /* GradientView.swift */; };
+		2BAB63D2243CA43F00A12ACA /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB63D1243CA43F00A12ACA /* DashBoardViewController.swift */; };
+		2BAB63D4243CBF1C00A12ACA /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB63D3243CBF1C00A12ACA /* SideMenuVC.swift */; };
+		2FFB44E3D747FF874276A77C /* libPods-HackerKernelTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D14A5313C3634CA3C54A69D /* libPods-HackerKernelTask.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BAB63A9243C1E0600A12ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BAB6387243C1E0300A12ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BAB638E243C1E0300A12ACA;
+			remoteInfo = HackerKernelTask;
+		};
+		2BAB63B4243C1E0600A12ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BAB6387243C1E0300A12ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BAB638E243C1E0300A12ACA;
+			remoteInfo = HackerKernelTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1662F908D3E74CE0530E587B /* Pods-HackerKernelTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerKernelTask.debug.xcconfig"; path = "Target Support Files/Pods-HackerKernelTask/Pods-HackerKernelTask.debug.xcconfig"; sourceTree = "<group>"; };
+		2BAB638F243C1E0300A12ACA /* HackerKernelTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerKernelTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BAB6392243C1E0400A12ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BAB6394243C1E0400A12ACA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2BAB6396243C1E0400A12ACA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2BAB6399243C1E0400A12ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BAB639C243C1E0400A12ACA /* HackerKernelTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HackerKernelTask.xcdatamodel; sourceTree = "<group>"; };
+		2BAB639E243C1E0600A12ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BAB63A1243C1E0600A12ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BAB63A3243C1E0600A12ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BAB63A8243C1E0600A12ACA /* HackerKernelTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerKernelTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BAB63AC243C1E0600A12ACA /* HackerKernelTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerKernelTaskTests.swift; sourceTree = "<group>"; };
+		2BAB63AE243C1E0600A12ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BAB63B3243C1E0600A12ACA /* HackerKernelTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerKernelTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BAB63B7243C1E0600A12ACA /* HackerKernelTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerKernelTaskUITests.swift; sourceTree = "<group>"; };
+		2BAB63B9243C1E0600A12ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BAB63C6243C58E700A12ACA /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2BAB63C8243C7EC600A12ACA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2BAB63CA243C7ED500A12ACA /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		2BAB63CC243C7EE600A12ACA /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		2BAB63CF243C92FB00A12ACA /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		2BAB63D1243CA43F00A12ACA /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		2BAB63D3243CBF1C00A12ACA /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		8D14A5313C3634CA3C54A69D /* libPods-HackerKernelTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerKernelTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD61534390FA23DE75AACB64 /* Pods-HackerKernelTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerKernelTask.release.xcconfig"; path = "Target Support Files/Pods-HackerKernelTask/Pods-HackerKernelTask.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BAB638C243C1E0300A12ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFB44E3D747FF874276A77C /* libPods-HackerKernelTask.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BAB63A5243C1E0600A12ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BAB63B0243C1E0600A12ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05984B865EF601356EEAB56A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D14A5313C3634CA3C54A69D /* libPods-HackerKernelTask.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BAB6386243C1E0300A12ACA = {
+			isa = PBXGroup;
+			children = (
+				2BAB6391243C1E0300A12ACA /* HackerKernelTask */,
+				2BAB63AB243C1E0600A12ACA /* HackerKernelTaskTests */,
+				2BAB63B6243C1E0600A12ACA /* HackerKernelTaskUITests */,
+				2BAB6390243C1E0300A12ACA /* Products */,
+				E08FE05A8D6581E6C3979252 /* Pods */,
+				05984B865EF601356EEAB56A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BAB6390243C1E0300A12ACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BAB638F243C1E0300A12ACA /* HackerKernelTask.app */,
+				2BAB63A8243C1E0600A12ACA /* HackerKernelTaskTests.xctest */,
+				2BAB63B3243C1E0600A12ACA /* HackerKernelTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BAB6391243C1E0300A12ACA /* HackerKernelTask */ = {
+			isa = PBXGroup;
+			children = (
+				2BAB63CE243C92FB00A12ACA /* IBDesinables */,
+				2BAB6392243C1E0400A12ACA /* AppDelegate.swift */,
+				2BAB6394243C1E0400A12ACA /* SceneDelegate.swift */,
+				2BAB6396243C1E0400A12ACA /* LoginViewController.swift */,
+				2BAB63C5243C589D00A12ACA /* ViewControllers */,
+				2BAB6398243C1E0400A12ACA /* Main.storyboard */,
+				2BAB639E243C1E0600A12ACA /* Assets.xcassets */,
+				2BAB63A0243C1E0600A12ACA /* LaunchScreen.storyboard */,
+				2BAB63A3243C1E0600A12ACA /* Info.plist */,
+				2BAB639B243C1E0400A12ACA /* HackerKernelTask.xcdatamodeld */,
+			);
+			path = HackerKernelTask;
+			sourceTree = "<group>";
+		};
+		2BAB63AB243C1E0600A12ACA /* HackerKernelTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BAB63AC243C1E0600A12ACA /* HackerKernelTaskTests.swift */,
+				2BAB63AE243C1E0600A12ACA /* Info.plist */,
+			);
+			path = HackerKernelTaskTests;
+			sourceTree = "<group>";
+		};
+		2BAB63B6243C1E0600A12ACA /* HackerKernelTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BAB63B7243C1E0600A12ACA /* HackerKernelTaskUITests.swift */,
+				2BAB63B9243C1E0600A12ACA /* Info.plist */,
+			);
+			path = HackerKernelTaskUITests;
+			sourceTree = "<group>";
+		};
+		2BAB63C5243C589D00A12ACA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BAB63C6243C58E700A12ACA /* MainTabBarController.swift */,
+				2BAB63C8243C7EC600A12ACA /* HomeViewController.swift */,
+				2BAB63CA243C7ED500A12ACA /* PhotosViewController.swift */,
+				2BAB63CC243C7EE600A12ACA /* PostsViewController.swift */,
+				2BAB63D1243CA43F00A12ACA /* DashBoardViewController.swift */,
+				2BAB63D3243CBF1C00A12ACA /* SideMenuVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2BAB63CE243C92FB00A12ACA /* IBDesinables */ = {
+			isa = PBXGroup;
+			children = (
+				2BAB63CF243C92FB00A12ACA /* GradientView.swift */,
+			);
+			path = IBDesinables;
+			sourceTree = "<group>";
+		};
+		E08FE05A8D6581E6C3979252 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1662F908D3E74CE0530E587B /* Pods-HackerKernelTask.debug.xcconfig */,
+				BD61534390FA23DE75AACB64 /* Pods-HackerKernelTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BAB638E243C1E0300A12ACA /* HackerKernelTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BAB63BC243C1E0600A12ACA /* Build configuration list for PBXNativeTarget "HackerKernelTask" */;
+			buildPhases = (
+				C8E30F3907A204FCECA81949 /* [CP] Check Pods Manifest.lock */,
+				2BAB638B243C1E0300A12ACA /* Sources */,
+				2BAB638C243C1E0300A12ACA /* Frameworks */,
+				2BAB638D243C1E0300A12ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerKernelTask;
+			productName = HackerKernelTask;
+			productReference = 2BAB638F243C1E0300A12ACA /* HackerKernelTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BAB63A7243C1E0600A12ACA /* HackerKernelTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BAB63BF243C1E0600A12ACA /* Build configuration list for PBXNativeTarget "HackerKernelTaskTests" */;
+			buildPhases = (
+				2BAB63A4243C1E0600A12ACA /* Sources */,
+				2BAB63A5243C1E0600A12ACA /* Frameworks */,
+				2BAB63A6243C1E0600A12ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BAB63AA243C1E0600A12ACA /* PBXTargetDependency */,
+			);
+			name = HackerKernelTaskTests;
+			productName = HackerKernelTaskTests;
+			productReference = 2BAB63A8243C1E0600A12ACA /* HackerKernelTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BAB63B2243C1E0600A12ACA /* HackerKernelTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BAB63C2243C1E0600A12ACA /* Build configuration list for PBXNativeTarget "HackerKernelTaskUITests" */;
+			buildPhases = (
+				2BAB63AF243C1E0600A12ACA /* Sources */,
+				2BAB63B0243C1E0600A12ACA /* Frameworks */,
+				2BAB63B1243C1E0600A12ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BAB63B5243C1E0600A12ACA /* PBXTargetDependency */,
+			);
+			name = HackerKernelTaskUITests;
+			productName = HackerKernelTaskUITests;
+			productReference = 2BAB63B3243C1E0600A12ACA /* HackerKernelTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BAB6387243C1E0300A12ACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Pavan Kalyan Jonnadula";
+				TargetAttributes = {
+					2BAB638E243C1E0300A12ACA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					2BAB63A7243C1E0600A12ACA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 2BAB638E243C1E0300A12ACA;
+					};
+					2BAB63B2243C1E0600A12ACA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 2BAB638E243C1E0300A12ACA;
+					};
+				};
+			};
+			buildConfigurationList = 2BAB638A243C1E0300A12ACA /* Build configuration list for PBXProject "HackerKernelTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BAB6386243C1E0300A12ACA;
+			productRefGroup = 2BAB6390243C1E0300A12ACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BAB638E243C1E0300A12ACA /* HackerKernelTask */,
+				2BAB63A7243C1E0600A12ACA /* HackerKernelTaskTests */,
+				2BAB63B2243C1E0600A12ACA /* HackerKernelTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BAB638D243C1E0300A12ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAB63A2243C1E0600A12ACA /* LaunchScreen.storyboard in Resources */,
+				2BAB639F243C1E0600A12ACA /* Assets.xcassets in Resources */,
+				2BAB639A243C1E0400A12ACA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BAB63A6243C1E0600A12ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BAB63B1243C1E0600A12ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C8E30F3907A204FCECA81949 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackerKernelTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BAB638B243C1E0300A12ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAB6397243C1E0400A12ACA /* LoginViewController.swift in Sources */,
+				2BAB6393243C1E0400A12ACA /* AppDelegate.swift in Sources */,
+				2BAB63C7243C58E700A12ACA /* MainTabBarController.swift in Sources */,
+				2BAB6395243C1E0400A12ACA /* SceneDelegate.swift in Sources */,
+				2BAB63CD243C7EE600A12ACA /* PostsViewController.swift in Sources */,
+				2BAB63D2243CA43F00A12ACA /* DashBoardViewController.swift in Sources */,
+				2BAB63CB243C7ED500A12ACA /* PhotosViewController.swift in Sources */,
+				2BAB639D243C1E0400A12ACA /* HackerKernelTask.xcdatamodeld in Sources */,
+				2BAB63C9243C7EC600A12ACA /* HomeViewController.swift in Sources */,
+				2BAB63D0243C92FB00A12ACA /* GradientView.swift in Sources */,
+				2BAB63D4243CBF1C00A12ACA /* SideMenuVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BAB63A4243C1E0600A12ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAB63AD243C1E0600A12ACA /* HackerKernelTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BAB63AF243C1E0600A12ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAB63B8243C1E0600A12ACA /* HackerKernelTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BAB63AA243C1E0600A12ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BAB638E243C1E0300A12ACA /* HackerKernelTask */;
+			targetProxy = 2BAB63A9243C1E0600A12ACA /* PBXContainerItemProxy */;
+		};
+		2BAB63B5243C1E0600A12ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BAB638E243C1E0300A12ACA /* HackerKernelTask */;
+			targetProxy = 2BAB63B4243C1E0600A12ACA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BAB6398243C1E0400A12ACA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BAB6399243C1E0400A12ACA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BAB63A0243C1E0600A12ACA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BAB63A1243C1E0600A12ACA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BAB63BA243C1E0600A12ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BAB63BB243C1E0600A12ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BAB63BD243C1E0600A12ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1662F908D3E74CE0530E587B /* Pods-HackerKernelTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackerKernelTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paone.HackerKernelTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BAB63BE243C1E0600A12ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD61534390FA23DE75AACB64 /* Pods-HackerKernelTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackerKernelTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paone.HackerKernelTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BAB63C0243C1E0600A12ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackerKernelTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paone.HackerKernelTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerKernelTask.app/HackerKernelTask";
+			};
+			name = Debug;
+		};
+		2BAB63C1243C1E0600A12ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackerKernelTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paone.HackerKernelTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerKernelTask.app/HackerKernelTask";
+			};
+			name = Release;
+		};
+		2BAB63C3243C1E0600A12ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackerKernelTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paone.HackerKernelTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackerKernelTask;
+			};
+			name = Debug;
+		};
+		2BAB63C4243C1E0600A12ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackerKernelTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paone.HackerKernelTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackerKernelTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BAB638A243C1E0300A12ACA /* Build configuration list for PBXProject "HackerKernelTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAB63BA243C1E0600A12ACA /* Debug */,
+				2BAB63BB243C1E0600A12ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BAB63BC243C1E0600A12ACA /* Build configuration list for PBXNativeTarget "HackerKernelTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAB63BD243C1E0600A12ACA /* Debug */,
+				2BAB63BE243C1E0600A12ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BAB63BF243C1E0600A12ACA /* Build configuration list for PBXNativeTarget "HackerKernelTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAB63C0243C1E0600A12ACA /* Debug */,
+				2BAB63C1243C1E0600A12ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BAB63C2243C1E0600A12ACA /* Build configuration list for PBXNativeTarget "HackerKernelTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAB63C3243C1E0600A12ACA /* Debug */,
+				2BAB63C4243C1E0600A12ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BAB639B243C1E0400A12ACA /* HackerKernelTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BAB639C243C1E0400A12ACA /* HackerKernelTask.xcdatamodel */,
+			);
+			currentVersion = 2BAB639C243C1E0400A12ACA /* HackerKernelTask.xcdatamodel */;
+			path = HackerKernelTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BAB6387243C1E0300A12ACA /* Project object */;
+}

@@ -1,0 +1,6 @@
+module Pods_HackerKernelTask {
+  umbrella header "Pods-HackerKernelTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
